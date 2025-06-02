@@ -9,8 +9,8 @@
 
 SlothLog is a modular Digital Forensics and Incident Response (DFIR) dashboard composed of two lightweight tools:
 
-- SlothLog-HTTP: For **analyzing HTTP logs**
-- SlothLog-FTP: For **analyzing FTP logs**
+- slothlog-http: For **analyzing HTTP logs**
+- slothlog-ftp : For **analyzing FTP logs**
 
 Sloth-themed, yet fast at heart.
 
@@ -58,10 +58,10 @@ pip install -r requirements.txt
 
 ```bash
 # analyse http logs
-streamlit run app/slothlog-http.py
+streamlit run src/slothlog-http.py
 
 # analyse ftp logs
-streamlit run app/slothlog-ftp.py
+streamlit run src/slothlog-ftp.py
 ```
 
 ---
@@ -140,7 +140,7 @@ Besides the aformentioned functionalities, there's the **Quick Operations** sect
 
 ### SlothLog-HTTP Dashboard
 
-Similar as SlothLog-FTP, also for the HTTP counterpart once the excel file is uploaded and processed, the **Raw Log table** initially displays every row exactly as in the original Excel file, with no filters applied. Moreover, the **User-Agent pie chart** shows the user-agent distribution present in the log.
+Similar to SlothLog-FTP, also for the HTTP counterpart once the excel file is uploaded and processed, the **Raw Log table** initially displays every row exactly as in the original Excel file, with no filters applied. Moreover, the **User-Agent pie chart** shows the user-agent distribution present in the log.
 On the left-hand side several options are present:
 
 - _Select sheet_: it allows to change the sheet of the excel file to process; 
@@ -189,11 +189,7 @@ Besides the previous filters, there's the **Quick Operations** section. At the m
 
 Pull requests, issues, and ideas are welcome!
 
-Keep scripts self-contained (no external Python deps if possible).
-
 Include a short usage note in the header comment if possible.
-
-Respect the MIT license for any borrowed code snippets.
 
 ## 💬 Contact
 
