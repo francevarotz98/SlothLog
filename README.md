@@ -9,7 +9,7 @@
 
 <div align="center">
 
-*A lazy-looking but fast and effective forensic analyzer*
+*A lazy-looking but effective forensic dashboard*
 
 </div>
 
