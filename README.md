@@ -1,11 +1,18 @@
 # 🦥 SlothLog - Analyse your logs, faster
 
-*A lazy-looking but fast and effective forensic analyzer*
+<div align="center">
 
 <img src="logo.png" alt="SlothLog Logo" width="350"/>
+<br>
 
+</div>
 
-## Description
+<div align="center">
+
+*A lazy-looking but fast and effective forensic analyzer*
+
+</div>
+
 
 SlothLog is a modular Digital Forensics and Incident Response (DFIR) dashboard composed of two lightweight tools:
 
@@ -14,6 +21,17 @@ SlothLog is a modular Digital Forensics and Incident Response (DFIR) dashboard c
 
 Sloth-themed, yet fast at heart.
 
+## Table of Contents
+
+- [When to use SlothLog?](#when-to-use-slothlog)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [SlothLog-FTP Dashboard](#slothlog-ftp-dashboard)
+  - [SlothLog-HTTP Dashboard](#slothlog-http-dashboard)
+- [TODO](#todo)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
 ## When to use SlothLog?
 
@@ -185,13 +203,13 @@ Besides the previous filters, there's the **Quick Operations** section. At the m
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests, issues, and ideas are welcome!
 
 Include a short usage note in the header comment if possible.
 
-## 💬 Contact
+## Contact
 
 If this project saved your day, or blew something up in an unexpected way, drop me a line on Twitter or Linkedin.
 
